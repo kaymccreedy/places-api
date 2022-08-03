@@ -1,0 +1,12 @@
+# Places
+
+### Index
+GET http://localhost:3000/places
+
+### Update
+PATCH http://localhost:3000/places/1.json
+
+{
+  "name": "The White Hous",
+  "address": "",
+}
